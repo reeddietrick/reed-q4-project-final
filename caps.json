@@ -1,0 +1,130 @@
+[
+    {
+        "title": "Clean Water Initiative",
+        "description": "Providing access to clean water in rural areas.",
+        "expandedDescription": "This project focuses on installing water filtration systems in rural communities to provide access to clean and safe drinking water.",
+        "author": "John Doe",
+        "year": 2023,
+        "category": "Clean Water and Sanitation",
+        "image": "https://files.oaiusercontent.com/file-RrfEw2kepfPRSE79fbhPml1V?se=2024-05-31T00%3A13%3A04Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D99bdc4de-7e26-49df-ada6-622ac22e0462.webp&sig=egrHLZ8p5k0rbWFRU4bBSJsV5lAIzkY7O270q8lgNAY%3D",
+        "contactInfo": {
+            "name": "Jane Smith",
+            "email": "jane.smith@example.com",
+            "phone": "555-123-4567"
+        }
+    },
+    {
+        "title": "Renewable Energy Project",
+        "description": "Implementing solar panels in underserved areas.",
+        "expandedDescription": "This project aims to provide renewable energy solutions to underserved areas by installing solar panels, reducing dependence on non-renewable energy sources.",
+        "author": "Emily Johnson",
+        "year": 2022,
+        "category": "Affordable and Clean Energy",
+        "image": "https://files.oaiusercontent.com/file-RrfEw2kepfPRSE79fbhPml1V?se=2024-05-31T00%3A13%3A04Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D99bdc4de-7e26-49df-ada6-622ac22e0462.webp&sig=egrHLZ8p5k0rbWFRU4bBSJsV5lAIzkY7O270q8lgNAY%3D",
+        "contactInfo": {
+            "name": "Michael Brown",
+            "email": "michael.brown@example.com",
+            "phone": "555-987-6543"
+        }
+    },
+    {
+        "title": "Educational Outreach Program",
+        "description": "Enhancing educational opportunities for children.",
+        "expandedDescription": "This project focuses on providing educational resources and support to children in low-income communities, aiming to improve literacy rates and overall education quality.",
+        "author": "Sarah Williams",
+        "year": 2021,
+        "category": "Quality Education",
+        "image": "https://files.oaiusercontent.com/file-RrfEw2kepfPRSE79fbhPml1V?se=2024-05-31T00%3A13%3A04Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D99bdc4de-7e26-49df-ada6-622ac22e0462.webp&sig=egrHLZ8p5k0rbWFRU4bBSJsV5lAIzkY7O270q8lgNAY%3D",
+        "contactInfo": {
+            "name": "Robert Davis",
+            "email": "robert.davis@example.com",
+            "phone": "555-456-7890"
+        }
+    },
+    {
+        "title": "Community Health Initiative",
+        "description": "Promoting health and well-being in local communities.",
+        "expandedDescription": "This project aims to improve health and well-being in local communities by providing free health screenings, vaccinations, and health education workshops.",
+        "author": "David Martinez",
+        "year": 2023,
+        "category": "Good Health and Well-Being",
+        "image": "https://files.oaiusercontent.com/file-RrfEw2kepfPRSE79fbhPml1V?se=2024-05-31T00%3A13%3A04Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D99bdc4de-7e26-49df-ada6-622ac22e0462.webp&sig=egrHLZ8p5k0rbWFRU4bBSJsV5lAIzkY7O270q8lgNAY%3D",
+        "contactInfo": {
+            "name": "Linda Garcia",
+            "email": "linda.garcia@example.com",
+            "phone": "555-321-4321"
+        }
+    },
+    {
+        "title": "Sustainable Agriculture Program",
+        "description": "Supporting sustainable farming practices.",
+        "expandedDescription": "This project promotes sustainable agriculture practices by providing training and resources to local farmers, helping them implement eco-friendly farming techniques.",
+        "author": "William Lee",
+        "year": 2022,
+        "category": "Zero Hunger",
+        "image": "https://files.oaiusercontent.com/file-RrfEw2kepfPRSE79fbhPml1V?se=2024-05-31T00%3A13%3A04Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D99bdc4de-7e26-49df-ada6-622ac22e0462.webp&sig=egrHLZ8p5k0rbWFRU4bBSJsV5lAIzkY7O270q8lgNAY%3D",
+        "contactInfo": {
+            "name": "Elizabeth Harris",
+            "email": "elizabeth.harris@example.com",
+            "phone": "555-654-3210"
+        }
+    },
+    {
+        "title": "Gender Equality Initiative",
+        "description": "Promoting gender equality and women's empowerment.",
+        "expandedDescription": "This project focuses on promoting gender equality by organizing workshops, campaigns, and advocacy programs that aim to empower women and girls in various communities.",
+        "author": "Olivia Clark",
+        "year": 2023,
+        "category": "Gender Equality",
+        "image": "https://files.oaiusercontent.com/file-RrfEw2kepfPRSE79fbhPml1V?se=2024-05-31T00%3A13%3A04Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D99bdc4de-7e26-49df-ada6-622ac22e0462.webp&sig=egrHLZ8p5k0rbWFRU4bBSJsV5lAIzkY7O270q8lgNAY%3D",
+        "contactInfo": {
+            "name": "James Allen",
+            "email": "james.allen@example.com",
+            "phone": "555-789-1234"
+        }
+    },
+    {
+        "title": "Climate Action Campaign",
+        "description": "Raising awareness and taking action on climate change.",
+        "expandedDescription": "This project focuses on educating communities about the impacts of climate change and implementing local initiatives to reduce carbon footprints, such as tree planting and clean-up drives.",
+        "author": "Sophia Taylor",
+        "year": 2022,
+        "category": "Climate Action",
+        "image": "https://files.oaiusercontent.com/file-RrfEw2kepfPRSE79fbhPml1V?se=2024-05-31T00%3A13%3A04Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D99bdc4de-7e26-49df-ada6-622ac22e0462.webp&sig=egrHLZ8p5k0rbWFRU4bBSJsV5lAIzkY7O270q8lgNAY%3D",
+        "contactInfo": {
+            "name": "Alexander Moore",
+            "email": "alexander.moore@example.com",
+            "phone": "555-432-1098"
+        }
+    },
+    {
+        "title": "Life Below Water Conservation",
+        "description": "Protecting marine life and ecosystems.",
+        "expandedDescription": "This project aims to protect marine life by organizing beach clean-ups, reducing plastic pollution, and educating the public about the importance of preserving ocean ecosystems.",
+        "author": "Isabella Anderson",
+        "year": 2021,
+        "category": "Life Below Water",
+        "image": "https://files.oaiusercontent.com/file-RrfEw2kepfPRSE79fbhPml1V?se=2024-05-31T00%3A13%3A04Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D99bdc4de-7e26-49df-ada6-622ac22e0462.webp&sig=egrHLZ8p5k0rbWFRU4bBSJsV5lAIzkY7O270q8lgNAY%3D",
+        "contactInfo": {
+            "name": "Matthew Jackson",
+            "email": "matthew.jackson@example.com",
+            "phone": "555-876-5432"
+        }
+    },
+    {
+        "title": "Peace and Justice Initiative",
+        "description": "Promoting peace, justice, and strong institutions.",
+        "expandedDescription": "This project works to promote peace and justice by conducting workshops on conflict resolution, advocating for human rights, and supporting the development of strong, transparent institutions.",
+        "author": "Liam Wilson",
+        "year": 2023,
+        "category": "Peace, Justice and Strong Institutions",
+        "image": "https://files.oaiusercontent.com/file-RrfEw2kepfPRSE79fbhPml1V?se=2024-05-31T00%3A13%3A04Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D99bdc4de-7e26-49df-ada6-622ac22e0462.webp&sig=egrHLZ8p5k0rbWFRU4bBSJsV5lAIzkY7O270q8lgNAY%3D",
+        "contactInfo": {
+            "name": "Emma Martinez",
+            "email": "emma.martinez@example.com",
+            "phone": "555-654-9870"
+        }
+    }
+]
+
+

@@ -1,0 +1,110 @@
+[
+    {
+        "title": "Pasadena Humane Society",
+        "description": "Dedicated to the humane treatment of animals in the Pasadena area.",
+        "topic": "Life on Land",
+        "link": "https://pasadenahumane.org/",
+        "image": "https://example.com/images/placeholder-image.jpg",
+        "contactInfo": {
+            "name": "John Doe",
+            "email": "jdoe@pasadenahumane.org",
+            "phone": "555-123-4567"
+        }
+    },
+    {
+        "title": "Union Station Homeless Services",
+        "description": "Helping individuals and families rebuild their lives and end homelessness in the Pasadena area.",
+        "topic": "No Poverty",
+        "link": "https://unionstationhs.org/",
+        "image": "https://example.com/images/placeholder-image.jpg",
+        "contactInfo": {
+            "name": "Jane Smith",
+            "email": "jsmith@unionstationhs.org",
+            "phone": "555-987-6543"
+        }
+    },
+    {
+        "title": "Los Angeles Regional Food Bank",
+        "description": "Fighting hunger by providing food to people in need.",
+        "topic": "Zero Hunger",
+        "link": "https://www.lafoodbank.org/",
+        "image": "https://example.com/images/placeholder-image.jpg",
+        "contactInfo": {
+            "name": "Michael Brown",
+            "email": "mbrown@lafoodbank.org",
+            "phone": "555-456-7890"
+        }
+    },
+    {
+        "title": "Heal the Bay",
+        "description": "Dedicated to making Southern California coastal waters and watersheds, including Santa Monica Bay, safe, healthy, and clean.",
+        "topic": "Life Below Water",
+        "link": "https://healthebay.org/",
+        "image": "https://example.com/images/placeholder-image.jpg",
+        "contactInfo": {
+            "name": "Sarah Williams",
+            "email": "swilliams@healthebay.org",
+            "phone": "555-321-4321"
+        }
+    },
+    {
+        "title": "TreePeople",
+        "description": "Inspiring the people of Los Angeles to take personal responsibility for the urban forest.",
+        "topic": "Climate Action",
+        "link": "https://www.treepeople.org/",
+        "image": "https://example.com/images/placeholder-image.jpg",
+        "contactInfo": {
+            "name": "David Martinez",
+            "email": "dmartinez@treepeople.org",
+            "phone": "555-654-3210"
+        }
+    },
+    {
+        "title": "The Midnight Mission",
+        "description": "Offering paths to self-sufficiency to men, women and children who have lost everything.",
+        "topic": "Reduced Inequality",
+        "link": "https://www.midnightmission.org/",
+        "image": "https://example.com/images/placeholder-image.jpg",
+        "contactInfo": {
+            "name": "Linda Garcia",
+            "email": "lgarcia@midnightmission.org",
+            "phone": "555-987-1234"
+        }
+    },
+    {
+        "title": "Clare Foundation",
+        "description": "Providing compassionate treatment and recovery services for alcoholism and substance abuse to individuals, families, and the community.",
+        "topic": "Good Health and Well-Being",
+        "link": "https://clarefoundation.org/",
+        "image": "https://example.com/images/placeholder-image.jpg",
+        "contactInfo": {
+            "name": "William Lee",
+            "email": "wlee@clarefoundation.org",
+            "phone": "555-654-7890"
+        }
+    },
+    {
+        "title": "Girls on the Run Los Angeles",
+        "description": "Inspiring girls to be joyful, healthy and confident using a fun, experience-based curriculum which creatively integrates running.",
+        "topic": "Gender Equality",
+        "link": "https://www.gotrla.org/",
+        "image": "https://example.com/images/placeholder-image.jpg",
+        "contactInfo": {
+            "name": "Olivia Clark",
+            "email": "oclark@gotrla.org",
+            "phone": "555-123-7890"
+        }
+    },
+    {
+        "title": "Big Brothers Big Sisters of Greater Los Angeles",
+        "description": "Providing children facing adversity with strong and enduring, professionally supported one-to-one relationships that change their lives for the better.",
+        "topic": "Quality Education",
+        "link": "https://www.bbbsla.org/",
+        "image": "https://example.com/images/placeholder-image.jpg",
+        "contactInfo": {
+            "name": "Emma Martinez",
+            "email": "emartinez@bbbsla.org",
+            "phone": "555-321-9870"
+        }
+    }
+]

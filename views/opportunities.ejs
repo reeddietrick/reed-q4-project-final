@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opportunities - Westridge Service</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: #47763b;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            color: #f4f4f4;
+            font-size: 24px;
+        }
+
+        .navbar-nav .nav-link {
+            color: #f4f4f4;
+            font-size: 18px;
+            margin-right: 15px;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #ccc;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .header-title {
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #333;
+        }
+
+        .content {
+            margin-bottom: 40px;
+        }
+
+        .list-group-item {
+            background-color: #fff;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .list-group-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .list-group-item strong {
+            display: block;
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .list-group-item span {
+            color: #777;
+        }
+
+        .list-group-item img {
+            width: 100%;
+            height: auto;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .list-group-item a {
+            text-decoration: none;
+        }
+
+        .list-group-item a.email-link {
+            color: #28a745;
+        }
+
+        .list-group-item a.email-link:hover {
+            text-decoration: underline;
+        }
+
+        .list-group-item a.learn-more {
+            color: #fff;
+        }
+
+        .list-group-item a.learn-more:hover {
+            text-decoration: none;
+        }
+
+        .form-group label {
+            font-size: 18px;
+            color: #333;
+        }
+
+        .btn-primary {
+            background-color: #47763b;
+            border-color: #47763b;
+            color: #fff;
+        }
+
+        .btn-primary:hover {
+            background-color: #365829;
+            border-color: #365829;
+        }
+
+        @media (max-width: 767px) {
+            .photo {
+                width: 100%;
+            }
+        }
+
+        .footer {
+            background-color: #47763b;
+            color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        .footer a {
+            color: #f4f4f4;
+            text-decoration: underline;
+            margin-right: 10px;
+        }
+
+        .footer a:hover {
+            color: #ccc;
+        }
+        .hero {
+            background: url('https://images.squarespace-cdn.com/content/v1/5a50673dc027d8114cde406b/1534469157883-UM1F6KTWPQMTT7VLWDPM/West-0569+web.jpg') center center/cover no-repeat;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero-overlay {
+            background: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+
+        .hero .btn-primary {
+            background-color: #f4f4f4;
+            color: #47763b;
+            border-color: #f4f4f4;
+        }
+
+        .hero .btn-primary:hover {
+            background-color: #e4e4e4;
+            color: #3c6130;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="/">Westridge Service</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="/cap-archive">CAP ARCHIVE</a></li>
+                <li class="nav-item"><a class="nav-link" href="/requirements">REQUIREMENTS</a></li>
+                <li class="nav-item"><a class="nav-link" href="/opportunities">OPPORTUNITIES</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Opportunities</h1>
+            <p>Discover a meaningful cause!</p>
+            
+        </div>
+    </section>
+
+    <div class="container">
+        <% if (!opportunities || opportunities.length === 0) { %>
+        <p>No opportunities available at the moment.</p>
+        <% } else { %>
+        <div class="content">
+            <form action="/opportunities" method="get" class="mb-4">
+                <div class="form-group">
+                    <label for="topic">Filter by Topic:</label>
+                    <select name="topic" id="topic" class="form-control">
+                        <option value="">All Topics</option>
+                        <option value="No Poverty">No Poverty</option>
+                        <option value="Zero Hunger">Zero Hunger</option>
+                        <option value="Good Health and Well-Being">Good Health and Well-Being</option>
+                        <option value="Quality Education">Quality Education</option>
+                        <option value="Gender Equality">Gender Equality</option>
+                        <option value="Clean Water and Sanitation">Clean Water and Sanitation</option>
+                        <option value="Affordable and Clean Energy">Affordable and Clean Energy</option>
+                        <option value="Decent Work and Economic Growth">Decent Work and Economic Growth</option>
+                        <option value="Industry, Innovation and Infrastructure">Industry, Innovation and Infrastructure</option>
+                        <option value="Reduced Inequalities">Reduced Inequalities</option>
+                        <option value="Sustainable Cities and Communities">Sustainable Cities and Communities</option>
+                        <option value="Responsible Consumption and Production">Responsible Consumption and Production</option>
+                        <option value="Climate Action">Climate Action</option>
+                        <option value="Life Below Water">Life Below Water</option>
+                        <option value="Life on Land">Life on Land</option>
+                        <option value="Peace, Justice and Strong Institutions">Peace, Justice and Strong Institutions</option>
+                        <option value="Partnerships for the Goals">Partnerships for the Goals</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Filter</button>
+            </form>
+
+            <ul class="list-group">
+                <% opportunities.forEach(opportunity => { %>
+                <li class="list-group-item">
+                    <img src="<%= opportunity.image %>" alt="<%= opportunity.title %>">
+                    <strong><%= opportunity.title %></strong>
+                    <p><%= opportunity.description %></p>
+                    <p><strong>UN Sustainable Development Goal:</strong> <%= opportunity.topic %></p>
+                    <p><strong>Contact:</strong> <%= opportunity.contactInfo.name %> | <a href="mailto:<%= opportunity.contactInfo.email %>" class="email-link"><%= opportunity.contactInfo.email %></a> | <%= opportunity.contactInfo.phone %></p>
+                    <a href="<%= opportunity.link %>" target="_blank" class="btn btn-primary learn-more">Learn More</a>
+                </li>
+                <% }) %>
+            </ul>
+        </div>
+        <% } %>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2023 Westridge Service. All Rights Reserved.</p>
+        
+    </footer>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

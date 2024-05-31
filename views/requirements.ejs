@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service & Community Engagement at Westridge</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding-top: 76px;
+        }
+
+        .navbar {
+            background-color: #47763b;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            color: #f4f4f4;
+            font-size: 24px;
+        }
+
+        .navbar-nav .nav-link {
+            color: #f4f4f4;
+            font-size: 18px;
+            margin-right: 15px;
+            transition: color 0.3s;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #ccc;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            color: #47763b;
+            margin-bottom: 30px;
+        }
+
+        .highlight {
+            color: #8BC34A;
+            animation: colorChange 2s infinite;
+        }
+
+        @keyframes colorChange {
+            0% { color: #8BC34A; }
+            50% { color: #4CAF50; }
+            100% { color: #8BC34A; }
+        }
+
+        .service-level-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+            animation: slideIn 1s ease-in-out;
+        }
+
+        .service-level {
+            flex: 1 1 calc(45% - 40px);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-decoration: none;
+            color: inherit;
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        .service-level:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .service-level h2 {
+            font-size: 1.6em;
+            margin-bottom: 15px;
+        }
+
+        .service-level ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .service-level ul li {
+            margin: 10px 0;
+            font-size: 1.1em;
+            color: #333;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .service-level ul li:before {
+            content: '•';
+            color: #4CAF50;
+            position: absolute;
+            left: 0;
+        }
+
+        .grade-9 {
+            background-color: #E8F5E9;
+            border-left: 10px solid #81C784;
+        }
+
+        .grade-10 {
+            background-color: #E0F2F1;
+            border-left: 10px solid #4DB6AC;
+        }
+
+        .grade-11-cts {
+            background-color: #F1F8E9;
+            border-left: 10px solid #AED581;
+        }
+
+        .grade-11-cap {
+            background-color: #F9FBE7;
+            border-left: 10px solid #DCE775;
+        }
+
+        @media (max-width: 767px) {
+            .service-level {
+                flex: 1 1 100%;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .split-section {
+            background-color: #f4f4f4;
+            padding: 40px 20px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .split-section h2 {
+            font-size: 2em;
+            color: #47763b;
+            text-align: center;
+            margin-bottom: 40px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .split-section .row {
+            display: flex;
+            justify-content: center;
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        .card {
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            margin-bottom: 20px;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-title {
+            font-size: 1.8em;
+            color: #47763b;
+            animation: slideIn 1s ease-in-out;
+        }
+
+        .card-text {
+            font-size: 1.1em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .list-group-item {
+            font-size: 1em;
+            color: #555;
+            border: none;
+            padding-left: 0;
+            position: relative;
+        }
+
+        .list-group-item:before {
+            content: '•';
+            color: #4CAF50;
+            position: absolute;
+            left: 0;
+        }
+
+        .cap-resources {
+            margin-top: 10px;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .cap-resources h3 {
+            color: #47763b;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+        }
+
+        .cap-resources-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        .cap-resources a {
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #47763b;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .cap-resources a:hover {
+            background-color: #365829;
+        }
+
+        .footer {
+            background-color: #47763b;
+            color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .footer a {
+            color: #f4f4f4;
+            text-decoration: underline;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="/">Westridge Service</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="/cap-archive">CAP ARCHIVE</a></li>
+                <li class="nav-item"><a class="nav-link" href="/requirements">REQUIREMENTS</a></li>
+                <li class="nav-item"><a class="nav-link" href="/opportunities">OPPORTUNITIES</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1>SERVICE & COMMUNITY ENGAGEMENT AT <span class="highlight">WESTRIDGE</span></h1>
+        <div class="service-level-container">
+            <a href="https://westridge.sharepoint.com/:b:/r/sites/ParentPortal/Shared%20Documents/Public/Service/GL%20Requirements/9th%20grade%20service%20reflections.pdf?csf=1&web=1&e=YHECoF" class="service-level grade-9" target="_blank">
+                <h2>9th Grade</h2>
+                <ul>
+                    <li>Fall Service Fairs</li>
+                    <li>Two off-campus service experiences</li>
+                    <li>CAP lunch seminars</li>
+                    <li>Spring Service Fair</li>
+                </ul>
+            </a>
+            <a href="https://westridge.sharepoint.com/:b:/r/sites/ParentPortal/Shared%20Documents/Public/Service/GL%20Requirements/Service10.pdf?csf=1&web=1&e=17lAHw" class="service-level grade-10" target="_blank">
+                <h2>10th Grade</h2>
+                <ul>
+                    <li>Fall Service Fairs</li>
+                    <li>PUSD Service Days</li>
+                    <li>Two off-campus service experiences</li>
+                    <li>CAP lunch seminars</li>
+                    <li>Choose Service Path by end of year</li>
+                </ul>
+            </a>
+            <a href="https://westridge.sharepoint.com/:b:/r/sites/ParentPortal/Shared%20Documents/Public/Service/GL%20Requirements/Service11.pdf?csf=1&web=1&e=Ged1as" class="service-level grade-11-cts" target="_blank">
+                <h2>11th Grade: CTS</h2>
+                <ul>
+                    <li>Participate in fall Service field days</li>
+                    <li>30+ hours of service with one organization</li>
+                    <li>Share service journey with Westridge community</li>
+                </ul>
+            </a>
+            <a href="https://westridge.sharepoint.com/:b:/r/sites/ParentPortal/Shared%20Documents/Public/Service/GL%20Requirements/Service11.pdf?csf=1&web=1&e=Ged1as" class="service-level grade-11-cap" target="_blank">
+                <h2>11th Grade: CAP</h2>
+                <ul>
+                    <li>Participate in fall Service field days</li>
+                    <li>30+ hours project</li>
+                    <li>Research</li>
+                    <li>Formal presentation for Westridge community</li>
+                </ul>
+            </a>
+        </div>
+    </div>
+
+    <div class="split-section">
+        <div class="container">
+            <h2>Service Pathways</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Community Action Project (CAP)</h3>
+                            <p class="card-text">Community Action Project (CAP) is the culmination of a journey of service and community engagement. The actual project can be large or small and is something students develop and execute over sophomore and junior year. The project should spring from service experiences in grades 9-10 and should reflect an area of personal interest for the student. All projects should address a need that exists within our local, regional, national, or international community. Service Projects may not focus solely on fundraising or a one-day event. The CAP path allows students to design and implement a community-focused project. This involves:</p>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Identifying a community need</li>
+                                <li class="list-group-item">Conducting research</li>
+                                <li class="list-group-item">Planning and executing a project</li>
+                                <li class="list-group-item">Presenting findings and experiences</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Community Through Service (CTS)</h3>
+                            <p class="card-text">A Commitment to Service (CTS) is a long-term commitment a student makes to ONE organization. Most students will do their CTS after trying out various experiences in 9th and 10th grade; however, students can complete their CTS in 9th or 10th grade. All students present their CTS and/or CAP during junior year. The CTS path encourages students to engage deeply with a single organization. This involves:</p>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Completing a minimum of 30 hours of service</li>
+                                <li class="list-group-item">Organizations must be approved by Ms. St John</li>
+                                <li class="list-group-item">Hours must be in person (not at home or at school)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cap-resources">
+        <div class="container">
+            <h3>CAP/CTS Resources</h3>
+            <div class="cap-resources-links">
+                <a href="https://westridge.sharepoint.com/:b:/r/sites/ParentPortal/Shared%20Documents/Public/Service/finding%20your%20cause.pdf?csf=1&web=1&e=JjUUrO" target="_blank" class="btn btn-outline-primary mb-2">Finding Your Cause</a>
+                <a href="https://westridge.sharepoint.com/:b:/r/sites/ParentPortal/Shared%20Documents/Public/Service/CAP_CTS/presentation%20requirements%20CTS%20and%20CAP.pdf?csf=1&web=1&e=p83ikV" target="_blank" class="btn btn-outline-primary mb-2">Presentation Requirements</a>
+                <a href="https://westridge.sharepoint.com/:b:/r/sites/ParentPortal/Shared%20Documents/Public/Service/CAP_CTS/public%20speaking%20rubric%20for%20CTS.pdf?csf=1&web=1&e=sbGjLV" target="_blank" class="btn btn-outline-primary mb-2">Public Speaking Rubric</a>
+                <a href="https://westridge.sharepoint.com/:b:/r/sites/ParentPortal/Shared%20Documents/Public/Service/CAP_CTS/Best_Practices_Ebook.pdf?csf=1&web=1&e=gR9QiZ" target="_blank" class="btn btn-outline-primary mb-2">Public Speaking Best Practices</a>
+                <a href="https://westridge.sharepoint.com/:p:/r/sites/ParentPortal/Shared%20Documents/Public/Service/CAP_CTS/THE_POWER_OF_PRESENTING_1673.pptx?d=w81dfa9f191f640aebaa7c17dbb3d126b&csf=1&web=1&e=gAdt8M" target="_blank" class="btn btn-outline-primary mb-2">The Power of Presenting</a>
+                <a href="https://westridge.sharepoint.com/:b:/r/sites/ParentPortal/Shared%20Documents/Public/Service/research%20(CAP).pdf?csf=1&web=1&e=XWbphT" target="_blank" class="btn btn-outline-primary mb-2">CAP Research</a>
+                <a href="https://westridge.sharepoint.com/:b:/r/sites/ParentPortal/Shared%20Documents/Public/Service/CAP_CTS/23.24.CAP.proposal.pdf?csf=1&web=1&e=wqoNFl" target="_blank" class="btn btn-outline-primary mb-2">CAP Proposal Form</a>
+                <a href="https://westridge.sharepoint.com/:b:/r/sites/ParentPortal/Shared%20Documents/Public/Service/research%20(CAP).pdf?csf=1&web=1&e=EtKKxO" target="_blank" class="btn btn-outline-primary mb-2">Rehearsal Feedback</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2023 Westridge Service. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

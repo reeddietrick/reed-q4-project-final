@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+            animation: fadeInBackground 1s ease-in-out;
+        }
+        .navbar {
+            margin-bottom: 20px;
+            background-color: #47763b;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .navbar-brand {
+            font-weight: bold;
+            color: #f4f4f4;
+            font-size: 24px;
+        }
+        .navbar-nav .nav-link {
+            color: #f4f4f4;
+            font-size: 18px;
+            margin-right: 15px;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #ccc;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #4CAF50;
+            margin-bottom: 30px;
+        }
+        .highlight {
+            color: #8BC34A;
+        }
+        .service-level {
+            background-color: #E8F5E9;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 10px solid #4CAF50;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .service-level:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+        }
+        .service-level h2 {
+            color: #4CAF50;
+            font-size: 1.6em;
+            margin-bottom: 15px;
+        }
+        .service-level ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .service-level ul li {
+            margin: 10px 0;
+            font-size: 1.1em;
+            color: #333;
+            padding-left: 20px;
+            position: relative;
+        }
+        .service-level ul li:before {
+            content: '•';
+            color: #4CAF50;
+            position: absolute;
+            left: 0;
+        }
+        .arrow {
+            font-size: 2.5em;
+            color: #4CAF50;
+            margin: 20px 0;
+            animation: bounce 1s infinite;
+        }
+        .service-level-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .service-level-container .service-level {
+            flex: 1;
+            background-color: #C8E6C9;
+        }
+        .service-level-container .service-level:nth-child(2) {
+            background-color: #A5D6A7;
+        }
+        @media (min-width: 768px) {
+            .service-level-container {
+                flex-direction: row;
+            }
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        @keyframes slideIn {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+        @keyframes fadeInBackground {
+            from {
+                background-color: #ffffff;
+            }
+            to {
+                background-color: #f4f4f4;
+            }
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+        .split-section {
+            display: flex;
+            flex-direction: column;
+            background-color: #f4f4f4;
+            padding: 40px 20px;
+            gap: 40px;
+        }
+        .split-section h2 {
+            font-size: 2em;
+            color: #4CAF50;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .split-section .content {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .split-section .content .column {
+            flex: 1;
+            background-color: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .split-section .content .column h3 {
+            color: #4CAF50;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+        }
+        .split-section .content .column p {
+            font-size: 1.1em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .split-section .content .column ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .split-section .content .column ul li {
+            font-size: 1em;
+            color: #555;
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+        .split-section .content .column ul li:before {
+            content: '•';
+            color: #4CAF50;
+            position: absolute;
+            left: 0;
+        }
+        @media (min-width: 768px) {
+            .split-section .content {
+                flex-direction: row;
+                gap: 40px;
+            }
+        }
+        .cap-resources {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #E8F5E9;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+        }
+        .cap-resources h3 {
+            color: #4CAF50;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+        }
+        .cap-resources-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .cap-resources a {
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #4CAF50;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .cap-resources a:hover {
+            background-color: #45a049;
+        }
+        .footer {
+            background-color: #47763b;
+            color: #f4f4f4;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+        .footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="/">Westridge Service</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="/cap-archive">CAP ARCHIVE</a></li>
+                <li class="nav-item"><a class="nav-link" href="/requirements">REQUIREMENTS</a></li>
+                <li class="nav-item"><a class="nav-link" href="/opportunities">OPPORTUNITIES</a></li>
+            </ul>
+        </div>
+    </nav>
